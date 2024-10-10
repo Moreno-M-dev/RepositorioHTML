@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #262527;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+
+  #titulo{
+    font-size: 40px;
+    color: black;
+  }
+
+  #descripcion{
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  #cabecera{
+   width: 50vw;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+
+  .imagen{
+    width: 350px;
+    height: 300px;
+  }
+
+  .caja{
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .sub-caja{
+    width: fit-content;
+    padding: 1em;
+    border-radius: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(58, 57, 57);
+    transition: 1s;
+  }
+
+  .sub-caja:hover{
+    background-color: rgb(71, 71, 230);
+    width: 360px;
+  }
+  .separador{
+    margin: 3em;
+    border: 3px solid rgb(248, 246, 246);
+    border-radius: 20%;
+    
+  }
+
+  footer{
+    height: 200px;
+    background-color: rgb(58, 57, 57);
+  }
+
+
+  ul {
+    list-style: none;
+}
+
+    .cajaLink{
+        margin: 10px;
+        padding: 5px;
+        width: 230px;
+    }
+
+    .cajaLink:hover{
+        padding: 7px;
+        background-color: rgb(71, 71, 230);
+        border-radius: 10px;
+    }  
+
+  .link, a{
+    color: white;
+    font-size: 20px;
+  }
+

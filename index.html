@@ -3,50 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>mi primer sitio web</title>
 </head>
 <body>
     <header>
-        <h1>Mi Primer Sitio Web</h1>
-        <p>Una breve explicacion para el sitio web</p>
+        <div id="cabecera">
+            <h1 id ="titulo">Mi Primer Sitio Web</h1>
+            <p id="descripcion">Una breve explicacion para el sitio web</p>
+        </div>
     </header>
     <main>
         <section>
             <article>
-                <h2>Lo primero es la estructura de una pagina web</h2>
+                <div class="separador">
 
-                <div>
-                    <p>la base de todo es el HTML</p>
-                    <img src="/html.jpg" alt="imagen de html">
+                </div>
+                <div class="caja">
+                    <div class="sub-caja">
+                        <h2 class="sub-titulo">HTML</h2>
+                        <img src="/html.jpg" alt="imagen de html" class="imagen">
+                    </div>
+                    <div class="sub-caja">
+                        <h2 class="sub-titulo">CSS</h2>
+                        <img src="/CSS.PNG" alt="imagen de estructura css" class="imagen">
+                    </div>
+
+                    <div class="sub-caja">
+                        <h2 class="sub-titulo">Javascript</h2>
+                        <img src="/javascriptstring.png" alt="imagen de de progamacion javascript" class="imagen">
+                    </div>
+                </div> 
+                <div class="separador">
+
                 </div>
             </article>
-            <hr />
-            <article>
-                <h2>Lo segundo es la forma o diseño</h2>
-
-                <div>
-                    <p>Hay entra el CSS</p>
-                    <img src="/CSS.PNG" alt="imagen de estructura css">
-                </div>
-            </article>
-            <hr />
-            <article>
-                <h2>Por ultimo las animaciones</h2>
-
-                <div>
-                    <p>Javascript</p>
-                    <img src="/javascriptstring.png" alt="imagen de de progamacion javascript">
-                </div>
-            </article>
-            <hr />
         </section>
-        <footer>
-            <ul>
-                <li>Home</li>
-                <li>Contacto</li>
-                <li><a href="/formularioP.html">Formulario de Prueba</a></li>
-            </ul>
-        </footer>
     </main>
 </body>
+<footer>
+    <div class="cajaLista"> 
+        <ul>
+            <div class="cajaLink">
+                <li class="link">Home</li>
+            </div>
+            <div class="cajaLink">
+                <li class="link">Contacto</li>
+            </div>
+            <div class="cajaLink">
+                <li class="link"><a href="/formularioP.html">Formulario de Prueba</a></li>
+            </div>
+        </ul>
+    </div>
+</footer>
 </html>
